@@ -11,7 +11,6 @@ class SpamDialog(ui.ScriptWindow):
 		self.Board.SetCloseEvent(self.Board.Hide)
 		self.Board.SetTitleName('Spam-Bot')
 		self.Board.Hide()
-		
 		self.comp = UIComponents.Component()
 		#self.Header = self.comp.TextLine(self.Board, 'Spambot', 73, 7, self.comp.RGB(255, 255, 0))
 		self.DelayLabel = self.comp.TextLine(self.Board, 'Delay: 15 Sec.', 70, 163, self.comp.RGB(255, 255, 255))
