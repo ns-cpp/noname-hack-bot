@@ -1,0 +1,1 @@
+Level:40|X:768|Y:913|Map:map_a2
